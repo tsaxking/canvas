@@ -1,10 +1,10 @@
 class Container implements Drawable {
-    elements: (CanvasElement|SubCanvas)[] = [];
+    elements: Drawable[] = [];
 
     constructor() {
     }
 
-    public addElement(element: CanvasElement|SubCanvas): void {
+    public addElement(element: Drawable): void {
         this.elements.push(element);
     }
 
@@ -14,7 +14,6 @@ class Container implements Drawable {
     }
 
     public draw(canvas: Canvas): void {
-        this.sort();
         this.elements.forEach((e, i) => {
             if (e instanceof CanvasImage && !e.image && !canvas.animating && i !== this.elements.length - 1) {
                 console.warn('Image has not loaded, and animation is not running. This may cause the image to render over other elements');
@@ -23,15 +22,6 @@ class Container implements Drawable {
             canvas.context.save();
             e.draw(canvas);
             canvas.context.restore();
-        });
-    }
-
-    public sort() {
-        // sort elements by z-index
-        this.elements.sort((a, b) => {
-            const aPos = a.position;
-            const bPos = b.position;
-            return aPos.z - bPos.z;
         });
     }
 }
