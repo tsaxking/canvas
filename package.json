@@ -1,0 +1,18 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "git+https://github.com/tsaxking/colors.git",
+    "material-icons": "^1.13.12",
+    "math": "git+https://github.com/tsaxking/calculations.git",
+    "ts-utils": "git+https://github.com/tsaxking/global-ts-utilities.git"
+  }
+}
