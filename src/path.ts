@@ -2,7 +2,7 @@ import { Drawable } from './drawable';
 import {
     Point2D,
     Point3D
-} from 'math/linear-algebra/point';
+} from 'math/point';
 import { copy } from './utils/copy';
 
 export class Path extends Drawable<Path> {

@@ -1,5 +1,5 @@
 import { Drawable } from './drawable';
-import { Spline as S } from 'math/linear-algebra/spline';
+import { Spline as S } from 'math/spline';
 
 type SplineOptions = {
     frames: number;

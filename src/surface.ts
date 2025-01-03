@@ -1,7 +1,7 @@
-import { Point3D } from 'math/linear-algebra/point';
+import { Point3D } from 'math/point';
 import { Drawable } from './drawable';
 import { Polygon } from './polygon';
-import { transform } from 'math/linear-algebra';
+import { transform } from 'math/matrix-calculations';
 
 export class Surface extends Drawable<Surface> {
     public triangles: Polygon[] = [];

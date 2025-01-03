@@ -1,5 +1,5 @@
 import { Drawable } from './drawable';
-import { Point2D } from 'math/linear-algebra/point';
+import { Point2D } from 'math/point';
 
 /**
  * Location and size of the image

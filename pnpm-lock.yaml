@@ -16,7 +16,7 @@ importers:
         version: 1.13.12
       math:
         specifier: github:tsaxking/calculations
-        version: https://codeload.github.com/tsaxking/calculations/tar.gz/833e0ce0e8130eba6b157e432920ef71ba17aeb6
+        version: https://codeload.github.com/tsaxking/calculations/tar.gz/6f735b3ade72c81393ee5f07db93647c3d4fff91
       ts-utils:
         specifier: git+https://github.com/tsaxking/global-ts-utilities.git
         version: global-ts-utilities.git@https://codeload.github.com/tsaxking/global-ts-utilities/tar.gz/38893cf5725d9eef050e811f37e89da89ed00bd7
@@ -37,8 +37,8 @@ packages:
   material-icons@1.13.12:
     resolution: {integrity: sha512-/2YoaB79IjUK2B2JB+vIXXYGtBfHb/XG66LvoKVM5ykHW7yfrV5SP6d7KLX6iijY6/G9GqwgtPQ/sbhFnOURVA==}
 
-  math@https://codeload.github.com/tsaxking/calculations/tar.gz/833e0ce0e8130eba6b157e432920ef71ba17aeb6:
-    resolution: {tarball: https://codeload.github.com/tsaxking/calculations/tar.gz/833e0ce0e8130eba6b157e432920ef71ba17aeb6}
+  math@https://codeload.github.com/tsaxking/calculations/tar.gz/6f735b3ade72c81393ee5f07db93647c3d4fff91:
+    resolution: {tarball: https://codeload.github.com/tsaxking/calculations/tar.gz/6f735b3ade72c81393ee5f07db93647c3d4fff91}
     version: 1.0.0
 
   typescript@5.7.2:
@@ -54,7 +54,7 @@ snapshots:
 
   material-icons@1.13.12: {}
 
-  math@https://codeload.github.com/tsaxking/calculations/tar.gz/833e0ce0e8130eba6b157e432920ef71ba17aeb6:
+  math@https://codeload.github.com/tsaxking/calculations/tar.gz/6f735b3ade72c81393ee5f07db93647c3d4fff91:
     dependencies:
       typescript: 5.7.2
 

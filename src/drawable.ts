@@ -1,7 +1,7 @@
 import {
     Point2D,
     Point3D
-} from 'math/linear-algebra/point';
+} from 'math/point';
 import { EventEmitter } from 'ts-utils/event-emitter';
 import {
     FillProperties,
