@@ -1,5 +1,5 @@
 import { copy } from './utils/copy';
-import { Point2D } from 'math/src/linear-algebra/point';
+import { Point2D } from 'math/linear-algebra/point';
 import { Drawable } from './drawable';
 
 export class SVG extends Drawable<SVG> {

@@ -2,9 +2,11 @@
   "name": "canvas",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && tsc -p tsconfig.commonjs.json && node ./scripts/post-build.js",
+    "install": "npm run build"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +14,14 @@
   "dependencies": {
     "colors": "git+https://github.com/tsaxking/colors.git",
     "material-icons": "^1.13.12",
-    "math": "git+https://github.com/tsaxking/calculations.git",
-    "ts-utils": "git+https://github.com/tsaxking/global-ts-utilities.git"
+    "math": "github:tsaxking/calculations",
+    "ts-utils": "git+https://github.com/tsaxking/global-ts-utilities.git",
+    "typescript": "^5.7.2"
+  },
+  "exports": {
+    ".": {
+      "import": "./lib/esm/index.js",
+      "require": "./lib/cjs/index.js"
+    }
   }
 }

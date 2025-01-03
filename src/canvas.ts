@@ -1,7 +1,7 @@
 import { Drawable, DrawableEvent } from './drawable';
 import { EventEmitter } from 'ts-utils/event-emitter';
 import { attempt } from 'ts-utils/check';
-import { Point2D } from 'math/src/linear-algebra/point';
+import { Point2D } from 'math/linear-algebra/point';
 import { Color } from 'colors/color';
 import { Background } from './background';
 

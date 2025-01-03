@@ -1,4 +1,4 @@
-import { Point2D } from 'math/src/linear-algebra/point';
+import { Point2D } from 'math/linear-algebra/point';
 import { Polygon } from './polygon';
 
 export class Border extends Polygon {
