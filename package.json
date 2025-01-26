@@ -22,6 +22,62 @@
     ".": {
       "import": "./lib/esm/index.js",
       "require": "./lib/cjs/index.js"
+    },
+    "./background": {
+      "import": "./lib/esm/background.js",
+      "require": "./lib/cjs/background.js"
+    },
+    "./border": {
+      "import": "./lib/esm/border.js",
+      "require": "./lib/cjs/border.js"
+    },
+    "./canvas": {
+      "import": "./lib/esm/canvas.js",
+      "require": "./lib/cjs/canvas.js"
+    },
+    "./circle": {
+      "import": "./lib/esm/circle.js",
+      "require": "./lib/cjs/circle.js"
+    },
+    "./container": {
+      "import": "./lib/esm/container.js",
+      "require": "./lib/cjs/container.js"
+    },
+    "./drawable": {
+      "import": "./lib/esm/drawable.js",
+      "require": "./lib/cjs/drawable.js"
+    },
+    "./image": {
+      "import": "./lib/esm/image.js",
+      "require": "./lib/cjs/image.js"
+    },
+    "./material-icons": {
+      "import": "./lib/esm/material-icons.js",
+      "require": "./lib/cjs/material-icons.js"
+    },
+    "./path": {
+      "import": "./lib/esm/path.js",
+      "require": "./lib/cjs/path.js"
+    },
+    "./polygon": {
+      "import": "./lib/esm/polygon.js",
+      "require": "./lib/cjs/polygon.js"
+    },
+    "./sphere": {
+      "import": "./lib/esm/sphere.js",
+      "require": "./lib/cjs/sphere.js"
+    },
+    "./spline": {
+      "import": "./lib/esm/spline.js",
+      "require": "./lib/cjs/spline.js"
+    },
+    "./surface": {
+      "import": "./lib/esm/surface.js",
+      "require": "./lib/cjs/surface.js"
+    },
+    "./svg": {
+      "import": "./lib/esm/svg.js",
+      "require": "./lib/cjs/svg.js"
     }
   }
 }
