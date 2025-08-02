@@ -6,7 +6,8 @@
   "module": "lib/esm/index.js",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.commonjs.json && node ./scripts/post-build.js",
-    "install": "npm run build"
+    "install": "npm run build",
+    "doc": "typedoc"
   },
   "keywords": [],
   "author": "",
@@ -79,5 +80,9 @@
       "import": "./lib/esm/svg.js",
       "require": "./lib/cjs/svg.js"
     }
+  },
+  "devDependencies": {
+    "typedoc": "^0.28.9",
+    "typedoc-plugin-markdown": "^4.8.0"
   }
 }
