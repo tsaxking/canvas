@@ -13,10 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "colors": "git+https://github.com/tsaxking/colors.git",
+    "colors": "git+https://github.com/tsaxking/colors.git#v1.0.0",
     "material-icons": "^1.13.12",
     "math": "github:tsaxking/calculations",
-    "ts-utils": "git+https://github.com/tsaxking/global-ts-utilities.git",
+    "ts-utils": "git+https://github.com/tsaxking/global-ts-utilities.git#v1.0.0",
     "typescript": "^5.7.2"
   },
   "exports": {

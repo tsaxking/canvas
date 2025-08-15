@@ -108,3 +108,5 @@ dist
 .tern-port
 
 docs/*
+
+pnpm-workspace.yaml
